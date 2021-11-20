@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/enlaces.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+		<ul>
+			<li><a href="tabla.html" target="_blank">Tablas</a></li>
+			<li><a href="lista.html" target="_blank">Listas</a></li>
+			<li><a href="enlaces.html" target="_blank">Enlaces</a></li>
+			<li><a href="audio.html" target="_blank">Audio</a></li>
+			<li><a href="video.html" target="_blank">Video</a></li>
+			<li><a href="formulario.html" target="_blank">Formularios</a></li>
+			<li><a href="mi_primera_pagina.html" target="_blank">Mi Primera pagina</a></li>
+		</ul>
+	<main>
+	<section>
+		<h2>Inserción de formulario</h2>
+		<form>
+			<label>Nombre:</label>
+			<input type="text" id="idname" name="nombre">
+		  <input type="button" id="boton1" name="enviar1" value="Enviar">
+	  </form>
+		</section>
+<section>
+    <h2>Inserción de formulario con casilla de verificación</h2>
+	  <form>
+	    <label>¿Cuales son los generos musicales que prefieres?</label>
+	    <input type="checkbox" id="generom1" name="generom1" value="Pop">
+			<label>Pop</label>
+		<input type="checkbox" id="generom2" name="gnerom2" value="Rock">
+		 	<label for="">Rock</label>
+	    <input type="checkbox" id="generom3" name="gnerom3" value="Jazz">
+		 	<label for="">Jazz</label>
+	    <input type="checkbox" id="generom4" name="gnerom4" value="Alternativo">
+		 	<label for="">Alternativo</label>
+	    <input type="button" id="boton2" name="enviar2" value="Enviar">
+      </form>
+	  </section>
+<section>
+  <h2>Inserción de formulario con botones de radio</h2>
+  <form id="form1" name="form1" method="get" action="action_page.html">
+    <label>Genero:</label>
+    <input type="radio" name="radio" id="radio" value="radio">
+    <label for="radio">Femenino</label>
+    <input type="radio" name="radio" id="radio2" value="radio2">
+    <label for="radio3">Masculino</label>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+  </form>
+</section>
+<section>
+		<h2>Formulario de Contacto</h2>
+	<form action="action_page.html" method="get">
+	  <label>Contacto</label>
+		<table width="50" border="0">
+  <tbody>
+    <tr>
+      <td><label for="textfield">Nombre:</label></td>
+      <td><input type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td><label for="email">Email:</label></td>
+      <td> <input type="email" name="email" id="email"></td>
+    </tr>
+    <tr>
+      <td><label for="textarea">Mensaje:</label></td>
+      <td><textarea name="textarea" id="textarea"></textarea></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="submit2" id="submit2" value="Enviar"></td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+      </form>
+	  </section>	
+		
+		
+	</main>
+<footer>
+  <h5>Elaborado por Yirla Nayeli Garcia Fuentes</h5>
+</footer>
+</body>
+</html>

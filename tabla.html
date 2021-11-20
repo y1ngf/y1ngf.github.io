@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			color: #E2d5d0;
+		}
+		header,footer,main,nav{
+			margin: 0 auto;
+			width: 1024px;
+			padding: 20px;
+		}
+		header{
+			height: 50px;
+			width: 1024px;
+			color: #fabc28;
+			text-align: center;
+			background-color: #151723;
+		}
+		nav{
+			background-color: #5c5489;
+			color: #5c5489;
+		}
+		nav{
+					width: 1064px;
+					padding-top: 1px;
+					padding-bottom: 20px;
+					margin: 0px auto;
+					height: auto;
+					text-align: center;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}
+			
+			ul,li{
+					display: inline-block;
+					margin: 7px 32px 0 84px;
+					font-weight: bolder;
+				}
+		main{
+			background-color: #2a2642;
+		}
+		h2{
+			background-color: #EC5489;
+			padding: 5px;
+			padding-left: 20px;
+		}
+		table{
+			align-content: center;
+			padding: 20px 0px 20px 0px;
+		}
+		section{
+			background-color: #fabc28;
+			margin: 30px;
+			padding: 30px;
+			color: #151723;
+		}
+		footer{
+			height: 20px;
+			background-color: #151723;
+			text-align: center;
+			padding: 20px;
+		}
+	</style>
+	
+<title>Tablas en HTML</title>
+	
+</head>
+	
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="tabla.html" target="_blank">Tablas</a></li>
+			<li><a href="lista.html" target="_blank">Listas</a></li>
+			<li><a href="enlaces.html" target="_blank">Enlaces</a></li>
+			<li><a href="audio.html" target="_blank">Audio</a></li>
+			<li><a href="video.html" target="_blank">Video</a></li>
+			<li><a href="formulario.html" target="_blank">Formularios</a></li>
+			<li><a href="mi_primera_pagina.html" target="_blank">Mi Primera pagina</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Tabla simple</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Telefono</th>
+					</tr>
+				</thead>
+			<tbody>
+				<tr>
+					<td>Sofia Rosales Perez</td>
+					<td>sofi_rospe@gmail.com</td>
+					<td>2225559999</td>
+				</tr>
+				<tr>
+					<td>Rosa Gomez Espindola</td>
+					<td>ros_gomez@gmail.com</td>
+					<td>2223568941</td>
+				</tr>
+				<tr>
+					<td>Juan Bautista Flores</td>
+					<td>juan_baflo@gmail.com</td>
+					<td>2231564897</td>
+				</tr>
+				<tr>
+					<td>Antonio Torreon Ramirez</td>
+					<td>ant_tora@gmail.com</td>
+					<td>2221356312</td>
+				</tr>
+				<tr>
+					<td>Laura Lopez Lopez</td>
+					<td>lau_lolo@gmail.com</td>
+					<td>2226599453</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla con celda abarca dos columnas</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th colspan="2">Telefono</th>
+					</tr>
+				</thead>	
+				<tbody>
+					<tr>
+						<td>Marisa Gomez Gomez</td>
+						<td>2223334444</td>
+						<td>2226665555</td>
+					</tr>
+					<tr>
+						<td>Lorena Garcia Sanchez</td>
+						<td>2223339999</td>
+						<td>2221113333</td>
+					</tr>
+					<tr>
+						<td>Rafael Robles Diaz</td>
+						<td>2224449999</td>
+						<td>2228887777</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table> 	
+		</section>
+	</main>
+	<footer></footer>
+</body>
+</html>

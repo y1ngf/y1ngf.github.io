@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas</title>
+</head>
+
+<body>
+	<header>
+		<h1>Listas en html</h1>
+		<style type="text/css">
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				h1{
+					color: #fff3bf;
+					font-size: 48px;
+				}
+				h2{
+					color: #94cf95;
+					font-size: 32px;
+					padding: 15px 15px 15px 0px;
+				}
+				h5{
+					color: #fff3bf;
+				}
+				header, footer,main, nav{
+					width: 960px;			
+					margin: 0 auto;/*Centra la caja automaticamente en horizontal*/
+				}
+				header,footer{
+					height: 100px;
+					padding: 20px;
+					text-align: center;
+					background-color: #2b204a;
+				}
+				nav{
+					width: 1000px;
+					background-color: #F0F1F3;
+					padding-top: 1px;
+					padding-bottom: 20px;
+					margin: 0px auto;
+					height: auto;
+					text-align: center;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}
+			
+			ul,li{
+					display: inline-block;
+					margin: 7px 32px 0 84px;
+					font-weight: bolder;
+				}
+				main{
+					height: auto;
+					background-color: #c07ca5;
+					padding: 20px;
+				}
+				section{
+					background-color: #fff3bf;
+					margin: 30px;
+					padding: 20px;
+					border: solid 5px #5f4b7c;
+				}
+				p{
+					padding: 10px;
+				}
+			</style>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="tabla.html" target="_blank">Tablas</a></li>
+			<li><a href="lista.html" target="_blank">Listas</a></li>
+			<li><a href="enlaces.html" target="_blank">Enlaces</a></li>
+			<li><a href="audio.html" target="_blank">Audio</a></li>
+			<li><a href="video.html" target="_blank">Video</a></li>
+			<li><a href="formulario.html" target="_blank">Formularios</a></li>
+			<li><a href="mi_primera_pagina.html" target="_blank">Mi Primera pagina</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Lista desordenada o con viñeta</h2>
+			<ul>
+				<li>Libreta profesional</li>
+				<li>Tijeras</li>
+				<li>Pegamento</li>
+				<li>Colores</li>
+				<li>100 hojas blancas</li>
+				<li>Lapiz no.2</li>
+			</ul>	
+		</section>
+		<section>
+			<h2>Lista ordenada o con viñeta numerda</h2>
+			<ol>	
+				<li>Sara Musalem</li>
+				<li>Jessica Mena</li>
+				<li>Victor Vargas</li>
+				<li>Angela Olivares</li>
+				<li>Francisco Faustino</li>
+				<li>Steffany Gomez</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista mixta</h2>
+			<ol>
+				<li>España</li>
+				<li>China</li>
+				<li>Mexico
+					<ul>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Guadalajara</li>
+					</ul>
+				</li>
+				<li>Estados Unidos</li>
+				<li>Italia
+					<ol>
+						<li>Roma</li>
+						<li>Florencia</li>
+						<li>Venecia</li>
+					</ol>
+				</li>
+				<li>Francia</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista de descripcion</h2>
+			<dl>
+				<dt>Usabilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eaque et eum quod, autem iure accusantium omnis est rem explicabo.</dd>
+				<dt>Accesibilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, laboriosam sint eveniet nulla magnam accusantium, veniam exercitationem ea iusto nobis fugit, facere veritatis voluptas sunt, animi nesciunt ipsa inventore aperiam?</dd>
+				<dt>Interactividad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ea nemo enim qui assumenda vero aut rerum omnis voluptate iste saepe ratione, fuga in. Expedita!</dd>
+			</dl>
+		</section>
+		<section>
+		<h2>Listas con cambio de viñetas</h2>
+			<ol>
+				<li>Mamiferos</li>
+					<ul style="list-style-type: disc;">
+						<li>Vacas</li>
+						<li>Humanos</li>
+						<li>Perros</li>
+					</ul>
+				<li>Reptiles</li>
+					<ul style="list-style-type: square;">
+						<li>Serpiente</li>
+						<li>Camaleon</li>
+						<li>Lagartijas</li>
+						<li>Iguana</li>
+					</ul>
+				<li>Anfibios</li>
+					<ul style="list-style-type: georgian">
+						<li>Salamandra</li>
+						<li>Rana</li>
+						<li>Cecilia</li>
+					</ul>
+				<li>Felinos</li>
+					<ul style="list-style-type: lower-roman">
+						<li>Leon</li>
+						<li>Pantera</li>
+						<li>Tigre</li>
+					</ul>
+				<li>Caninos</li>
+					<ul style="list-style-image: url('../Image/plato.png');">
+						<li>lorem</li>
+						<li>lorem</li>
+						<li>lorem</li>
+					</ul>
+				<li>Vertebrados</li>
+			</ol>
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Yirla Nayeli García Fuentes</h5>
+	</footer>
+	
+</body>
+</html>
